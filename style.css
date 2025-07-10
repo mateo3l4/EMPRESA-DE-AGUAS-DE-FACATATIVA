@@ -1,0 +1,76 @@
+/* Centrar todo el contenido */
+html, body, [data-testid="stAppViewContainer"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+/* Fondo base suave */
+[data-testid="stAppViewContainer"] {
+    background-color: #f5f8fa;  /* Puedes cambiar por otro color suave si deseas */
+}
+
+/* Logo de bienvenida (si decides agregar uno por separado) */
+.logo-inicial {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Título centrado */
+h3 {
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Formulario centrado */
+.css-1v0mbdj, .stForm {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 600px;
+}
+
+/* Botón personalizado */
+button {
+    background-color: #00587a;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Contraste y borde de los contenedores */
+.block-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Tablas y botones */
+[data-testid="stDataFrame"] {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.stDownloadButton > button {
+    background-color: #0075a2;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* Ajustar radio buttons horizontal */
+.stRadio > div {
+    flex-direction: row;
+}
+
+/* Etiquetas del formulario más oscuras */
+label, .stSelectbox label, .stTextInput label {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
